@@ -1,4 +1,4 @@
-targets = 2_1_1_pthreads.out
+targets = 2_1_1_pthreads.out 2_1_2_pthreads.out
 CFLAGS = -O3
 LDFLAGS = -pthread
 
