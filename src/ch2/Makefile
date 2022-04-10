@@ -1,11 +1,11 @@
-targets = 2_1_1_pthreads
+targets = 2_1_1_pthreads.out
 CFLAGS = -O3
 LDFLAGS = -pthread
 
 all: $(targets)
 
-%.s: %.c
-	$(CC) -O3 -S $<
+%.out: %.c
+	$(CC) -O3 $(LDFLAGS) -o $@ $<
 
 .PHONY: clean
 clean:
