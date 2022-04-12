@@ -1,4 +1,4 @@
-targets = 3_2_1_cas.s
+targets = 3_2_1_cas-no-atomic.s 3_2_1_cas-atomic.s
 
 all: $(targets)
 
