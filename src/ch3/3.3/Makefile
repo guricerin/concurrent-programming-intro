@@ -1,4 +1,4 @@
-targets = 3_3_0_bad-mutex.o
+targets = 3_3_0_bad-mutex.o 3_3_0_good-mutex.o
 CFLAGS = -O3
 LDFLAGS = -pthread
 
