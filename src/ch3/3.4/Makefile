@@ -1,4 +1,4 @@
-targets = 3_4_0_semaphore.out
+targets = 3_4_0_semaphore.out 3_4_2_posix-semaphore.out
 CFLAGS = -O3
 LDFLAGS = -pthread
 
