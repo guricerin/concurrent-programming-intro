@@ -1,6 +1,6 @@
-targets = reent.out
-CFLAGS = -O3 -DNUM_THREADS=4
-LDFLAGS = -pthread
+targets = spurious.out
+CFLAGS = -O3
+LSFLAGS = -pthread
 
 all: $(targets)
 
